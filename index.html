@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -17,16 +18,29 @@
         </li>
     </ul>
          
-    <h1>SOBRE LAVÍNIA</h1>
-    <p>Olá, me chamo Lavínia, tenho 19 anos e sou nascida e criada em Recife.</p>
-    <p>Atualmente, curso Ciências Atuarias na UFPB e estudo desenvolvimento de Software 
-       na Generarion Brasil. Sou apaixonada por motos e pela adrenalina que é pilotar,
-       meu sonho é um dia viajar o país de moto!!</p>
+    <h1 class="center">Sobre Lavínia</h1>
 
-        <img src="https://github.com/larvakent.png" alt="foto da criadora do conteúdo">
+    <div class="container">
 
-        <h2>Meu vídeo predileto</h2>
+        <div>
+            <img class="br-50 wh p-30" src="assets/img/fotoPerfil.jpg" width="360" alt="foto da criadora do conteúdo">
+        </div>
+       
+        <div class="p-30">
+           <p class="justify">
+            Olá, me chamo Lavínia, tenho 19 anos e sou nascida e criada em Recife. <br>
+            Atualmente, curso Ciências Atuariais na UFPB e estudo desenvolvimento de Software 
+            na Generarion Brasil. Sou apaixonada por motos e pela adrenalina que é pilotar,
+            meu sonho é um dia viajar o país de moto!! Quero também viajar o mundo, conhecer o máximo
+            de países que eu puder. Enxergar a vida de uma maneira diferente, deixar de lado as dores que ela nos traz.
+           </p>
+        </div>
 
+    </div>
+
+        <h2 class="center">Meu vídeo predileto</h2>
+
+        <div class="container mb-50">
         <iframe width="560" 
         height="315" 
         src="https://www.youtube.com/embed/2zpn2-LKLL8" 
@@ -35,7 +49,27 @@
         allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
+        </div>
 
+        <hr>
+        <footer>
+
+            <div class="container">
+                <a href="https://github.com/larvakent" target="_blank">
+                <img class="tm-social p-30" src="assets/img/github.png" alt="logo do github">
+                </a>
+                <a href="https://www.linkedin.com/in/lavinia-amorim/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="logo do linkedin">
+                </a>
+                <a href="https://instagram.com/lavinia_amorims" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="logo do instagram">
+                </a> 
+            </div>
+          <p class="center"> 
+           Todos os direitos reservados: Lavínia Amorim &copy;
+          </p> 
+
+        </footer>
 
 </body>
 </html>
